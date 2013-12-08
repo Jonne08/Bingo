@@ -423,7 +423,7 @@ public class GuiKlantIndex extends javax.swing.JFrame {
         if(!search.equals(""))
         {
             lstSearch.setVisible(true);
-            zoekKlanten(search);
+            zoekKlanten(search);//GIT TEST COMMENT
             zoekArtikels(search);
         }
     }//GEN-LAST:event_txtSearchKeyReleased
